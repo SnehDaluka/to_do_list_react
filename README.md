@@ -1,3 +1,5 @@
+![to_do_list](https://github.com/SnehDaluka/to_do_list_react/assets/118180994/af646c6a-4c0f-4daf-b836-483e44bfc2df)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
