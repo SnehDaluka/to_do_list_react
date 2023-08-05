@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(26, 27, 28);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 35%;
+    min-height: 75vh;
+    box-shadow: 2px 2px 30px -5px rgb(0, 0, 0);
+    background-color: #313030;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+
+.container {
+    width: 100%;
+    border-radius: 2em;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 3rem 0;
+    letter-spacing: 3px;
+    background-color: #f6980c;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 30px -5px black;
+    text-align: center;
+    text-shadow: 3px 3px 10px black;
+}
+
+.additems {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input {
+    padding: 0.5rem;
+    background-color: #313030;
+    font-size: 20px;
+    width: 70%;
+    color: white;
+    text-align: center;
+    margin: 10px 20px;
+    font-weight: 300;
+    border: none;
+    border-bottom: 4px solid #f6980c;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    box-shadow: 2px 2px 30px -5px rgb(0, 0, 0);
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    padding: 0.3rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.list_detail {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+p {
+    color: white;
+    list-style: none;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin: 0.5rem 2rem;
+    padding: 0.3rem 0;
+    font-size: 1rem;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 1.5rem;
+}
+
+@media(max-width:1000px) {
+    .box {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
